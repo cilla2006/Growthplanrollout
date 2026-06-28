@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Growth Plan</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="course-container">
+
+    <!-- Header -->
+   <header class="course-header">
+
+    <div class="header-top">
+
+        <img
+            src="assetsimages/logo-left.png"
+            alt="Left Logo"
+            class="company-logo left-logo">
+
+        <h1 id="courseTitle">
+            Creating a Growth Plan
+        </h1>
+
+        <img
+            src="assetsimages/logo-right.png"
+            alt="Right Logo"
+            class="company-logo right-logo">
+
+    </div>
+
+        <div class="progress-wrapper">
+
+            <div class="progress-info">
+                <span id="slideCounter">Slide 1 of 23</span>
+            </div>
+
+            <div class="progress-bar">
+                <div id="progressFill"></div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Main Content -->
+
+    <main id="slideContainer">
+
+        <!-- JavaScript will render slides here -->
+
+    </main>
+
+    <!-- Navigation -->
+
+    <footer class="navigation">
+
+        <button id="backBtn" class="secondary">
+            ← Back
+        </button>
+
+        <button id="nextBtn" class="primary" disabled>
+            Next →
+        </button>
+
+    </footer>
+
+</div>
+
+<!-- Image Modal -->
+
+<div id="imageModal" class="modal">
+
+    <span id="closeModal">&times;</span>
+
+    <img
+    id="modalImage"
+    alt="Enlarged slide image"
+    title="Click outside the image to close">
+
+</div>
+
+<script src="courseData-Copy.js"></script>
+<script src="script-Copy.js"></script>
+
+</body>
+</html>
